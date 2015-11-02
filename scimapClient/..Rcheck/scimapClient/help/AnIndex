@@ -1,0 +1,11 @@
+scimapClient-package	scimapClient
+addUserMetadata	addUserMetadata
+deanonymize	deanonymize
+disableScimap	enableScimap
+disableScimapThisSession	enableScimap
+enableScimap	enableScimap
+enableTracking	enableTracking
+getScimapId	getScimapId
+isEnabledScimap	isEnabledScimap
+previewPacket	previewPacket
+scimapClient	scimapClient

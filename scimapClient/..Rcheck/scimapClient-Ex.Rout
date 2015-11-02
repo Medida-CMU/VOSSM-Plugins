@@ -1,0 +1,119 @@
+
+R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "scimapClient"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> library('scimapClient')
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("addUserMetadata")
+> ### * addUserMetadata
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: addUserMetadata
+> ### Title: Add user metadata
+> ### Aliases: addUserMetadata
+> 
+> ### ** Examples
+> 
+> ## Not run: addUserMetadata(list(project="Arrow trajectory analysis", version="v5.4"))
+> 
+> 
+> 
+> cleanEx()
+> nameEx("deanonymize")
+> ### * deanonymize
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: deanonymize
+> ### Title: Associate personal identity with usage data
+> ### Aliases: deanonymize
+> 
+> ### ** Examples
+> 
+> library(scimapClient)
+> ## Not run: 
+> ##D deanonymize("Chris Bogart", "http://quetzal.bogarthome.net/",
+> ##D     "http://scholar.google.com/citations?user=FQSWa4sAAAAJ&hl=en")
+> ## End(Not run)
+> 
+> 
+> 
+> cleanEx()
+> nameEx("isEnabledScimap")
+> ### * isEnabledScimap
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: isEnabledScimap
+> ### Title: Does 'scimapClient' have permission to track usage?
+> ### Aliases: isEnabledScimap
+> 
+> ### ** Examples
+> 
+> ## Type this in interactive mode to see whether
+> ## the scimapClient package is enabled to collect usage data.
+> isEnabledScimap()
+[1] FALSE
+> # returns TRUE or FALSE
+> 
+> 
+> 
+> cleanEx()
+> nameEx("scimapClient")
+> ### * scimapClient
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: scimapClient
+> ### Title: Collects and reports usage data on R packages
+> ### Aliases: scimapClient scimapClient-package
+> 
+> ### ** Examples
+> 
+> ##  Call this to reenable scimap
+> ## Not run: enableScimap()
+> 
+> ##  Call this to toggle scimap off if you do not want to send data.
+> ## Not run: disableScimap()
+> 
+> ## Call this to see what kind of information is sent
+> previewPacket()
+[1] "{\n \"scimapInfoVersion\":      3,\n\"user\": null,\n\"startEpoch\": \"1446417637\",\n\"startTime\": \"Sun Nov 01 17:40:37 2015\",\n\"endEpoch\": \"1446417637\",\n\"endTime\": \"Sun Nov 01 17:40:37 2015\",\n\"platform\": {\n \"system\": \"Linux\",\n\"rversion\": \"R3.1.2\",\n\"version\": \"3.19.0-15-generic\",\n\"hardware\": \"x86_64\" \n},\n\"jobID\": \"1446417637\",\n\"pkgT\": [],\n\"dynDeps\": [],\n\"dynPackDeps\": [],\n\"weakDeps\": [],\n\"weakPackDeps\": [],\n\"userMetadata\": [] \n}"
+> 
+> 
+> 
+> ### * <FOOTER>
+> ###
+> options(digits = 7L)
+> base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  0.08 0.008 0.088 0 0 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')

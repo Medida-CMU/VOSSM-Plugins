@@ -1,0 +1,11 @@
+addUserMetadata         Add user metadata
+deanonymize             Associate personal identity with usage data
+enableScimap            Enable or revoke permission for usage tracking
+enableTracking          Enable tracking for this session
+getScimapId             Get scimap unique/anonymous ID for your
+                        installation of R
+isEnabledScimap         Does 'scimapClient' have permission to track
+                        usage?
+previewPacket           Assemble usage information for transmission to
+                        <URL: http://scisoft-net-map.isri.cmu.edu>
+scimapClient            Collects and reports usage data on R packages

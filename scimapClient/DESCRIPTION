@@ -1,0 +1,20 @@
+Package: scimapClient
+Type: Package
+Title: Collects and Reports Usage Data on R Packages and store it in a file
+Version: 0.2.1
+Date: 2015-011-01
+Author: Christopher Bogart
+Maintainer: Christopher Bogart <cbogartdenver@gmail.com>
+Extension: Anandh Somasundaram <yesyayen@gmail.com>
+Description: This package sends anonymized package usage information to 
+    http://scisoft-net-map.isri.cmu.edu. You can help the creators of scientific 
+    software packages show the usage and impact of their software to employers, 
+    funding agencies, tenure committees, etc.
+URL: http://scisoft-net-map.isri.cmu.edu
+License: BSD_2_clause + file LICENSE
+Imports:
+    RJSONIO,
+    tools,
+    utils
+Suggests:
+    testthat
