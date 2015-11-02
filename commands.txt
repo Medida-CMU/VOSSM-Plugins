@@ -1,0 +1,6 @@
+R CMD build scimapClient
+
+i <- installed.packages()
+installed.packages()[1:5,]
+
+install.packages("/home/yesyayen/RTry/scimapClient_0.2.1.tar.gz", repos = NULL, type="source")
