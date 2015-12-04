@@ -7,6 +7,6 @@ do
         boto-rsync -v -a $access -s $secret --ignore-empty /home/yesyayen/MonitorData/RMonitorData/ s3://vossm-datastore/RMonitorData/ >> "$Rfile"
         boto-rsync -v -a $access -s $secret --ignore-empty /home/yesyayen/MonitorData/ShellMonitorData/ s3://vossm-datastore/ShellMonitorData/ >> "$Shellfile"
         echo "waiting"  
-        sleep 180       #sleep for 3 minutes
+        sleep 10       #sleep for 10 sec
 done
 
