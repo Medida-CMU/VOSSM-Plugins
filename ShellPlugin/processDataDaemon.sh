@@ -66,7 +66,7 @@ do
 					# echo $elapsed_time >> processDaemon.log
 					# echo -n $process_command " - " >> processDaemonWhole.log
 					# echo $elapsed_time >> processDaemonWhole.log
-					echo '{"user" : "'$user'","system" : "'$system'","version" : "'$version'","hardware" : "'$hardware'", "package" : "'$process_name'", "duration" : "'$elapsed_time'", "ipaddress" : "'$ipaddress'"}' >> shellJSON.log
+					echo '{"user" : "'$user'","system" : "'$system'","version" : "'$version'","hardware" : "'$hardware'", "package" : "'$process_name'", "duration" : "'$elapsed_time'", "ipaddress" : "'$ipaddress'"}' >> /home/yesyayen/MonitorData/shellJSON.log
 				fi
 			fi	
 		fi
