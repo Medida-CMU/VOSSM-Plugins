@@ -1,0 +1,9 @@
+{"user" : "37cb4061cda14af0b0441ae89dacd019","system" : "Linux","version" : "Version: 3.14.2-0ubuntu5","hardware" : "x86_64", "package" : "file-roller", "duration" : "elapsed_time", "ipaddress" : "192.168.1.192"}
+{"user" : "37cb4061cda14af0b0441ae89dacd019","system" : "Linux","version" : "Version: 3.14.4-1","hardware" : "x86_64", "package" : "eog", "duration" : "elapsed_time", "ipaddress" : "192.168.1.192"}
+{"user" : "37cb4061cda14af0b0441ae89dacd019","system" : "Linux","version" : "Version: 3.14.4-1","hardware" : "x86_64", "package" : "eog", "duration" : "00:37", "ipaddress" : "192.168.1.192"}
+{"user" : "37cb4061cda14af0b0441ae89dacd019","system" : "Linux","version" : "Version: 3.14.2-0ubuntu5","hardware" : "x86_64", "package" : "file-roller", "duration" : "00:43", "ipaddress" : "192.168.1.192"}
+{"user" : "37cb4061cda14af0b0441ae89dacd019","system" : "Linux","version" : "Version: 2.2.0-1","hardware" : "x86_64", "package" : "vlc", "duration" : "00:08", "ipaddress" : "192.168.1.192"}
+{"user" : "37cb4061cda14af0b0441ae89dacd019","system" : "Linux","version" : "Version: 3.14.4-1","hardware" : "x86_64", "package" : "eog", "duration" : "00:16", "ipaddress" : "192.168.1.192"}
+{"user" : "37cb4061cda14af0b0441ae89dacd019","system" : "Linux","version" : "Version: 3.1-1ubuntu3","hardware" : "x86_64", "package" : "rhythmbox", "duration" : "00:14", "ipaddress" : "192.168.1.192"}
+{"user" : "37cb4061cda14af0b0441ae89dacd019","system" : "Linux","version" : "Version: 3.14.2-0ubuntu5","hardware" : "x86_64", "package" : "file-roller", "duration" : "00:09", "ipaddress" : "192.168.1.192"}
+{"user" : "37cb4061cda14af0b0441ae89dacd019","system" : "Linux","version" : "Version: 37.0+build2-0ubuntu1","hardware" : "x86_64", "package" : "firefox", "duration" : "00:22", "ipaddress" : "192.168.1.192"}

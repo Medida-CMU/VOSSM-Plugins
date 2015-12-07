@@ -9,4 +9,3 @@ do
         echo "waiting"  
         sleep 10       #sleep for 10 sec
 done
-

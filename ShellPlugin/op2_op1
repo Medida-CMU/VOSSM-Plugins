@@ -1,0 +1,4 @@
+291c291
+< 30484 ps -A -o pid,command
+---
+> 30467 ps -A -o pid,command
